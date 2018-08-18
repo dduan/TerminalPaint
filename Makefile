@@ -1,7 +1,2 @@
-build_and_run: build run
-
-build:
-	swift build
-
-run:
-	.build/debug/TerminalPaint
+build_and_run:
+	@swift run
