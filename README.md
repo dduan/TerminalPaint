@@ -7,7 +7,7 @@ You'll need Swift Package Manager to build it:
 2. go to the folder and run `make`.
 3. (press "q" to quit the program, read about it at bottom of your terminal).
 
-For technical details, read `Sources/main.swift`
+For technical details, read `Sources/TerminalPaint/main.swift`
 
 [Termbox]: https://github.com/dduan/Termbox
 [original termbox]: https://github.com/nsf/termbox
