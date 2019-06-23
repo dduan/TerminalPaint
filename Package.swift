@@ -1,4 +1,4 @@
-// swift-tools-version:4.1
+// swift-tools-version:5.0
 import PackageDescription
 
 let package = Package(
@@ -7,7 +7,7 @@ let package = Package(
         .executable(name: "TerminalPaint", targets: ["TerminalPaint"]),
     ],
     dependencies:[
-        .package(url: "https://github.com/dduan/Termbox.git", .exact("1.0.0-alpha.1"))
+        .package(url: "https://github.com/dduan/Termbox.git", .exact("1.0.0"))
     ],
     targets: [
         .target(name: "TerminalPaint", dependencies: ["Termbox"])
